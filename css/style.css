@@ -1,46 +1,33 @@
 body,html{
     height: 100%;
+    /*background-image: url("../photos/tlook4.jpg");*/
+    /*min-height: 800px;*/
+
 }
 
-.bgnd {
-    background-attachment: fixed;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 74vh;
-    max-height: 1200px;
-    min-height: 200px;
+#cos {
+     /*background-image: url("../photos/tlook4.jpg");*/
+     /*min-height: 800px;*/
+ }
+#cos2 {
+    /*background-image: url("../photos/diabetes.jpg");*/
+    /*min-height: 800px;*/
+}
+#cos3 {
+
+    /*background-image: url("../photos/food2.jpg");*/
+    /*min-height: 800px;*/
+}
+#cos4 {
+
+    /*background-image: url("../photos/auto3.png");*/
+    /*min-height: 800px;*/
 }
 
-.bgnd-1 {
-    background-image: url(../photos/manman1.png);
-}
-
-.bgnd-2 {
-    background-image: url(../photos/diabetes.jpg);
-}
-
-.bgnd-3 {
-    background-image: url(../photos/food2.jpg);
-}
-
-.bgnd-4 {
-    background-image: url(../photos/car.jpg);
-}
-
-.bgnd-5 {
-    background-image: url(../photos/calendar.jpg);
-    height: 54vh;
-}
-
-.bgnd-6 {
-    background-image: url(../photos/bielsko.jpg);
-    height: 54vh;
-}
-
-header + .bgnd {
-    height: 80vh;
-}
+/*#cos2 {*/
+    /*background-image: url("../photos/food2.jpg");*/
+    /*min-height: 800px;*/
+/*}*/
 
 /* remove outer padding */
 .main .row{
