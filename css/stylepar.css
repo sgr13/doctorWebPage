@@ -8,6 +8,7 @@
     min-height: 200px;
 }
 
+/*załadowanie zdjęć do każdego z elementów*/
 .bgnd-1 {
     background-image: url(../photos/manman1.png);
 }
@@ -34,6 +35,7 @@
     height: 54vh;
 }
 
-/*header + .bgnd {*/
-    /*height: 80vh;*/
-/*}*/
+/*Powiększenie pierwszego okna ze zdjęciem*/
+header + .bgnd {
+    height: 80vh;
+}
