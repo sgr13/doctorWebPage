@@ -1,33 +1,6 @@
 body,html{
     height: 100%;
-    /*background-image: url("../photos/tlook4.jpg");*/
-    /*min-height: 800px;*/
-
 }
-
-#cos {
-     /*background-image: url("../photos/tlook4.jpg");*/
-     /*min-height: 800px;*/
- }
-#cos2 {
-    /*background-image: url("../photos/diabetes.jpg");*/
-    /*min-height: 800px;*/
-}
-#cos3 {
-
-    /*background-image: url("../photos/food2.jpg");*/
-    /*min-height: 800px;*/
-}
-#cos4 {
-
-    /*background-image: url("../photos/auto3.png");*/
-    /*min-height: 800px;*/
-}
-
-/*#cos2 {*/
-    /*background-image: url("../photos/food2.jpg");*/
-    /*min-height: 800px;*/
-/*}*/
 
 /* remove outer padding */
 .main .row{
@@ -179,7 +152,7 @@ nav:hover .forAnimate{
     /*padding-left: 15px;*/
 /*}*/
 
-#wtf {
+#sideMenu {
     position: relative;
     background-color: darkgreen;
     min-height: 1800px;
@@ -194,7 +167,7 @@ nav:hover .forAnimate{
     border-top: 0;
 }
 
-#hey {
+#sideMenuContainer {
     position: fixed;
 }
 
