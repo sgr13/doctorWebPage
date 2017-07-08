@@ -1,36 +1,22 @@
-body,html{
-    height: 100%;
-}
-
-/* remove outer padding */
-.main .row{
-    padding: 0px;
-    margin: 0px;
-}
-
-/*Remove rounded coners*/
-
+/*Usunięcie zaokrąglonych krawędzi bocznego menu*/
 nav.sidebar.navbar {
     border-radius: 0px;
 }
 
-nav.sidebar, .main{
-    -webkit-transition: margin 200ms ease-out;
-    -moz-transition: margin 200ms ease-out;
-    -o-transition: margin 200ms ease-out;
-    transition: margin 200ms ease-out;
-}
+/*nav.sidebar, .main{*/
+    /*-webkit-transition: margin 200ms ease-out;*/
+    /*-moz-transition: margin 200ms ease-out;*/
+    /*-o-transition: margin 200ms ease-out;*/
+    /*transition: margin 200ms ease-out;*/
+/*}*/
 
 /* Add gap to nav and right windows.*/
-.main{
-    padding: 10px 10px 0 10px;
-}
+/*.main{*/
+    /*padding: 10px 10px 0 10px;*/
+/*}*/
 
-/* .....NavBar: Icon only with coloring/layout.....*/
-
-/*small/medium side display*/
+/*side display*/
 @media (min-width: 768px) {
-
     /*Allow main to be next to Nav*/
     .main{
         position: absolute;
@@ -39,10 +25,6 @@ nav.sidebar, .main{
         float: right;
     }
 
-    /*Center Brand*/
-    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-        margin-left: 0px;
-    }
     /*Center Brand*/
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
         text-align: center;
