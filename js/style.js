@@ -25,4 +25,21 @@ $(document).ready(function () {
         $('.nav li').removeClass('active');
         $(this).addClass('active');
     })
+
+
+    setInterval(function(){
+        if($('#firstPicture').hasClass('bgnd-1')) {
+            console.log('bgnd-1');
+            $('#firstPicture').removeClass('bgnd-1');
+            $('#firstPicture').addClass('bgnd-1-2');
+        } else if($('#firstPicture').hasClass('bgnd-1-2')) {
+            console.log('bgnd-1-2');
+            $('#firstPicture').removeClass('bgnd-1-2');
+            $('#firstPicture').addClass('bgnd-1-3');
+        } else {
+            console.log('bgnd-1-3');
+            $('#firstPicture').removeClass('bgnd-1-3');
+            $('#firstPicture').addClass('bgnd-1');
+        }
+    }, 10000)
 });
